@@ -14,6 +14,6 @@ public class PalindromeTest {
 	@Test
 	public void invalidPalindrome() 
 	{
-		assertFalse((new Palindrome()).checkPalindrome(12231));
+		assertFalse((new Palindrome()).checkPalindrome(1231));
 	}
 }
