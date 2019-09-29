@@ -23,4 +23,10 @@ public class Palindrome {
 		else
 			return false;
 	}
+	
+	public static void main(String ar[]) {
+		Palindrome palindrome = new Palindrome();
+		System.out.println("****************** The given Number (4009) is a palindrome = " + palindrome.checkPalindrome(4009)+ " ******************");
+		System.out.println("****************** The given Number (1005001) is a palindrome = " + palindrome.checkPalindrome(1005001)+ " ******************");
+	}
 }
